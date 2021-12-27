@@ -69,8 +69,13 @@ const shop = {
 };
 
 // Forech
-let p1 = ["hassan", 2000];
-p1.forEach((p1) => {
-  console.log(p1)
+//let p1 = ["Xasan" ,]
+//p1.forEach((p1) => {
   
-});
+  
+
+Object.entries(bas).forEach(([key,value])=>{
+  if(value.price < 200){
+    console.log(value)
+  }
+})
